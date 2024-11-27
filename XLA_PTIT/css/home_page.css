@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-image: url('https://scontent.fhan12-1.fna.fbcdn.net/v/t39.30808-6/464927774_979921727511486_9151641829989123014_n.png?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=p4jKeZt1VIgQ7kNvgFnMgZZ&_nc_zt=23&_nc_ht=scontent.fhan12-1.fna&_nc_gid=A1HYeeEXIiuRJ0r9440TPnx&oh=00_AYA0Wk8Zetxy53waerphK172RfdqYdOl8F50873BKk8fqg&oe=6734F94C');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+form {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Use rgba to create a semi-transparent background */
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
